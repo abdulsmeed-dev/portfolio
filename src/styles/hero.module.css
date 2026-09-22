@@ -92,12 +92,13 @@
 }
 
 .name {
-  font-size: clamp(2.6rem, 5.5vw, 4.2rem);
+  font-size: clamp(2.1rem, 6.5vw, 4.2rem);
   font-weight: 900;
   color: var(--text-primary);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
   margin-top: 4px;
+  word-break: break-word;
 }
 
 .nameGradient {
@@ -378,32 +379,74 @@
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: calc(var(--header-h) + 32px);
+    padding-top: calc(var(--header-h) + 24px);
+    padding-bottom: 40px;
+    min-height: auto;
+  }
+  .name {
+    font-size: clamp(2rem, 8vw, 2.7rem);
+    line-height: 1.15;
+  }
+  .typing {
+    font-size: 1.05rem;
+    min-height: 2.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .valueProp {
+    font-size: 0.94rem;
+    line-height: 1.65;
+    padding: 0 4px;
+  }
+  .statusRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+  .status, .copyEmailChip {
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   .portraitFrame {
-    width: 270px;
+    width: 250px;
   }
   .badge1 {
-    left: -10px;
+    left: 4px;
+    top: -10px;
     font-size: 0.72rem;
     padding: 6px 12px;
   }
   .badge2 {
-    right: -10px;
+    right: 4px;
+    bottom: 12px;
     font-size: 0.72rem;
     padding: 6px 12px;
   }
   .stats {
     grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 40px;
+  }
+  .statCard {
+    padding: 18px 16px;
+  }
+  .statVal {
+    font-size: 1.75rem;
   }
   .ctas {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
   }
   .primaryBtn,
   .secondaryBtn,
   .ghostBtn {
     width: 100%;
     justify-content: center;
+    padding: 12px 20px;
+    font-size: 0.88rem;
   }
 }

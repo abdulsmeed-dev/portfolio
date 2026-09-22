@@ -152,3 +152,36 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 640px) {
+  .infoTitle {
+    font-size: 1.45rem;
+  }
+  .infoText {
+    font-size: 0.92rem;
+  }
+  .channel {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+  .channelVal {
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+  .socials {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .socialBtn {
+    flex: 1;
+    justify-content: center;
+    font-size: 0.82rem;
+    padding: 8px 14px;
+  }
+  .pageBanner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px;
+  }
+}

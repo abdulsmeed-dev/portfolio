@@ -182,3 +182,46 @@
     gap: 36px;
   }
 }
+
+@media (max-width: 640px) {
+  .pageWrap {
+    padding-top: calc(var(--header-h) + 24px);
+    padding-bottom: 50px;
+  }
+  .pageTitle {
+    font-size: 1.85rem;
+  }
+  .pageSub {
+    font-size: 0.92rem;
+  }
+  .pageHead {
+    margin-bottom: 32px;
+  }
+  .profileCard {
+    padding: 16px;
+    gap: 12px;
+  }
+  .avatar {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+  }
+  .channel {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+  .channelVal {
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+  .socials {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .socialBtn {
+    flex: 1;
+    justify-content: center;
+    font-size: 0.82rem;
+    padding: 8px 12px;
+  }
+}

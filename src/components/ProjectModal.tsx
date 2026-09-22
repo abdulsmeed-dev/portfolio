@@ -54,7 +54,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           background: "rgba(10, 16, 36, 0.95)",
           border: "1px solid rgba(99, 102, 241, 0.35)",
           borderRadius: "24px",
-          padding: "36px",
+          padding: "clamp(20px, 5vw, 36px)",
           boxShadow: "0 24px 70px rgba(0, 0, 0, 0.8), 0 0 50px rgba(99, 102, 241, 0.2)",
           color: "#ffffff"
         }}
@@ -129,7 +129,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         </div>
 
         {/* Title */}
-        <h2 style={{ fontSize: "1.85rem", fontWeight: 800, lineHeight: 1.25, letterSpacing: "-0.03em", marginBottom: "16px" }}>
+        <h2 style={{ fontSize: "clamp(1.35rem, 5vw, 1.85rem)", fontWeight: 800, lineHeight: 1.25, letterSpacing: "-0.03em", marginBottom: "16px", wordBreak: "break-word" }}>
           {project.title}
         </h2>
 

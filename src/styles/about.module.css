@@ -89,3 +89,35 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 640px) {
+  .text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .quote {
+    padding: 14px 16px;
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+  .pillars {
+    gap: 12px;
+  }
+  .pillar {
+    padding: 16px;
+    gap: 12px;
+    border-radius: var(--radius-lg);
+  }
+  .num {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    font-size: 0.78rem;
+  }
+  .pillarTitle {
+    font-size: 0.96rem;
+  }
+  .pillarDesc {
+    font-size: 0.82rem;
+  }
+}

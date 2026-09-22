@@ -172,3 +172,38 @@
     padding: 22px;
   }
 }
+
+@media (max-width: 640px) {
+  .track {
+    padding-left: 28px;
+  }
+  .track::before {
+    left: 8px;
+  }
+  .marker {
+    left: -28px;
+    width: 18px;
+    height: 18px;
+  }
+  .card {
+    padding: 18px 14px;
+    border-radius: var(--radius-lg);
+  }
+  .role {
+    font-size: 1.15rem;
+  }
+  .company {
+    font-size: 0.88rem;
+  }
+  .desc {
+    font-size: 0.88rem;
+  }
+  .bulletItem {
+    font-size: 0.82rem;
+    gap: 8px;
+  }
+  .tag {
+    font-size: 0.72rem;
+    padding: 3px 9px;
+  }
+}

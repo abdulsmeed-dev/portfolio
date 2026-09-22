@@ -225,3 +225,23 @@
     display: flex;
   }
 }
+
+@media (max-width: 540px) {
+  .actions .ctaBtn {
+    display: none;
+  }
+  .logoBadge {
+    width: 34px;
+    height: 34px;
+    font-size: 0.76rem;
+  }
+  .logoName {
+    font-size: 0.9rem;
+  }
+  .logoSub {
+    font-size: 0.62rem;
+  }
+  .drawer {
+    padding: 20px 16px 28px;
+  }
+}

@@ -185,6 +185,27 @@ button {
   }
 }
 
+@media (max-width: 640px) {
+  :root {
+    --section-gap: 68px;
+    --header-h: 62px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .section-header {
+    margin-bottom: 36px;
+  }
+  .section-title {
+    font-size: 1.85rem;
+    line-height: 1.2;
+  }
+  .section-subtitle {
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+}
+
 /* ── Section Headers ── */
 .section-header {
   text-align: center;

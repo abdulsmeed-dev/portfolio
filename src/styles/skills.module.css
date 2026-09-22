@@ -117,5 +117,25 @@
 @media (max-width: 640px) {
   .grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card {
+    padding: 20px 16px;
+    border-radius: var(--radius-lg);
+  }
+  .cardTitle {
+    font-size: 1.05rem;
+  }
+  .cardDesc {
+    font-size: 0.82rem;
+    margin-bottom: 16px;
+  }
+  .pill {
+    font-size: 0.76rem;
+    padding: 5px 10px;
+  }
+  .hint {
+    margin-top: 24px;
+    font-size: 0.78rem;
   }
 }
