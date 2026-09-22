@@ -23,6 +23,7 @@ export function Footer() {
             <li><a href="#experience" className={s.fLink}>Experience</a></li>
             <li><Link href="/contact" className={s.fLink}>Contact</Link></li>
             <li><a href={portfolioData.personal.linkedin} target="_blank" rel="noopener noreferrer" className={s.fLink}>LinkedIn</a></li>
+            <li><a href={portfolioData.personal.github} target="_blank" rel="noopener noreferrer" className={s.fLink}>GitHub</a></li>
           </ul>
         </div>
         <div className={s.bottom}>
