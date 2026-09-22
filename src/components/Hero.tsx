@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { portfolioData } from "../data/portfolioData";
-import { ArrowRightIcon, DownloadIcon, MailIcon, SparklesIcon, SmartphoneIcon } from "./Icons";
+import { ArrowRightIcon, DownloadIcon, MailIcon } from "./Icons";
 import { SpotlightCard } from "./SpotlightCard";
 import { useToast } from "./Toast";
 import s from "../styles/hero.module.css";
@@ -128,12 +128,6 @@ export function Hero() {
           <div className={s.right}>
             <div className={s.portraitFrame}>
               <div className={s.portraitGlow} />
-              <div className={s.badge1}>
-                <SmartphoneIcon size={14} color="var(--cyan)" /> Flutter &amp; Clean Architecture
-              </div>
-              <div className={s.badge2}>
-                <SparklesIcon size={14} color="var(--emerald)" /> AI-Accelerated Delivery
-              </div>
               <div className={s.portraitCard}>
                 <Image
                   src={portfolioData.personal.profileImage}
